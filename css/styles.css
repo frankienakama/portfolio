@@ -24,13 +24,7 @@ li {
   text-decoration: none;
 }
 
-}
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
-}
+
 .projects-list {
 
 }
@@ -44,4 +38,8 @@ li {
 
 .row {
   min-width: 50%;
+}
+
+dl {
+  text-align: left;
 }
