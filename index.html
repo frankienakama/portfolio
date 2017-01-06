@@ -14,29 +14,33 @@ Create a gh-pages branch so that your site can be viewed on GitHub Pages at your
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Sara Frandsen Portfolio</title>
   </head>
+<div class="container">
   <body>
 
 <!--profile image-->
 <!--includes name, address, contact info-->
-    <p><ul>
+  <div class="contact-info container">
+    <ul>
       <li>Sara Frandsen</li>
       <li>Seattle, WA</li>
       <li>(253) 431-5014</li>
       <li>sara.frandsen@gmail.com</li>
-    </ul></p>
+    </ul>
+  </div>
 
 
 
 
-
-<div class="main">
-    <img src="img/profile.jpg" alt="Sara Frandsen">
+<div class="fluid-container">
+  <div class="row">
 
 <!--list of projects with links to github repos-->
-    <div class="projects-list container">
-      <div class="row">
-        <h1>List of projects created at Epicodus</h1>
-      </div>
+    <div class="projects-list fluid-container">
+      <div class="col-lg-6">
+          <p><img src="img/profile.jpg" alt="Sara Frandsen"></p>
+        <div class="header">
+          <h1>List of projects created at Epicodus</h1>
+        </div>
 <!--resort-->
       <div class="projects panel-default">
         <div class="panel-heading">
@@ -108,9 +112,11 @@ Create a gh-pages branch so that your site can be viewed on GitHub Pages at your
       <div class="panel-body">
       </div>
     </div>
+  </div>
 
+  <div class="col-md-6">
 <!--about me-->
-
+hey
 <!--personal background-->
 <!--hotizontal description using bootstrap-->
 <!-- <dl class="dl-horizontal">
@@ -120,6 +126,8 @@ Create a gh-pages branch so that your site can be viewed on GitHub Pages at your
 
 <!--current interests, hobbies, and skills-->
 
-</div> <!--div class="main"-->
+  </div>
+</div> <!--div class="row"-->
   </body>
+</div>
 </html>

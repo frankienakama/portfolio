@@ -1,15 +1,16 @@
 /* contact info */
 .ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 
-.main {
+.main-body {
   margin-top: 30px;
 }
 /*contact info*/
@@ -23,8 +24,6 @@ li {
   text-decoration: none;
 }
 
-h1 .container {
-  float: left;
 }
 .left {
   text-align: left;
@@ -41,4 +40,8 @@ h1 .container {
 
 .panel-heading {
   background-color:
+}
+
+.row {
+  min-width: 50%;
 }
