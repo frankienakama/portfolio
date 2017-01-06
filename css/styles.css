@@ -5,17 +5,17 @@
   padding-right: 50px;
 }
 
-.my-name {
-  text-align: center;
-}
-.navbar {
-
-}
-.img {
-  text-align: center;
+.column {
+  width: 680px;
+  float: left;
+  margin: 50px;
+  padding: 5px;
 }
 
-.row1 {
-  margin: auto;
-  max-width: 600px;
+img {
+  width: 550px;;
+}
+
+.about-me {
+  float:right;
 }
