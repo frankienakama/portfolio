@@ -1,3 +1,7 @@
+img {
+  float: left;
+}
+
 .projects-list {
 
 }
@@ -6,5 +10,5 @@
 }
 
 .panel-heading {
-  background-color: 
+  background-color:
 }
