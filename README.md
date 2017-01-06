@@ -12,5 +12,5 @@ Created using HTML, CSS, and Bootstrap.
 
 To view this project, simply open index.html into the web browser of your choosing, i.e. Chrome, Safari, or Edge.
 
-_this project is licensed under the GPL license._
-*Copyright (c) 2017 Sara Frandsen*
+_This project is licensed under the GPL license._
+**Copyright (c) 2017 Sara Frandsen**
