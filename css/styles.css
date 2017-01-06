@@ -38,6 +38,10 @@ img {
   float:right;
   font-family: 'ABeeZee', sans-serif;
   background-color: #CCCFCC;
+  word-wrap: normal;
+}
+ul.no-bullet {
+  list-style: none;
 }
 .contact {
   text-align: center;
