@@ -34,18 +34,31 @@ img {
   color: #A5ADA6;
 }
 .about-me {
-  margin-top: 60px;
   float:right;
   font-family: 'ABeeZee', sans-serif;
   background-color: #CCCFCC;
-  word-wrap: normal;
 }
 ul.no-bullet {
   list-style: none;
+}
+li {
+  max-width: 500px;
 }
 .contact {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 20px;
   color: #A5ADA6;
+}
+.content-wrapper {
+ width: 1420px;
+ margin-top: 60px;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+@media screen and (max-width: 1400px) {
+ .content-wrapper {
+   width: 740px;
+ }
 }
