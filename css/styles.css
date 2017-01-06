@@ -3,19 +3,29 @@
   margin-top: 60px;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 .column {
   width: 680px;
   float: left;
-  margin: 50px;
   padding: 5px;
 }
 
 img {
-  width: 550px;;
+  width: 550px;
+  border-radius: 20px;
 }
-
+.name {
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
 .about-me {
   float:right;
+  font-family: 'ABeeZee', sans-serif;
+}
+.contact {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
 }
