@@ -1,23 +1,21 @@
 
+.main-body {
+  margin-top: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .my-name {
+  text-align: center;
+}
+.navbar {
 
 }
-
-.projects-list {
-
-}
-.projects {
-
+.img {
+  text-align: center;
 }
 
-.panel-heading {
-  background-color:
-}
-/*
-.row {
-  min-width: 50%;
-}*/
-
-dl {
-  text-align: left;
+.row1 {
+  margin: auto;
+  max-width: 600px;
 }
