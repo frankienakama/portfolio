@@ -1,34 +1,7 @@
-@media screen and (max-width: 1000px) {
-  img {
-    display: none;
-  }
-  .about-me {
 
-  }
+.my-name {
+
 }
-/* contact info */
-.contact-info {
-  text-align: center;
-}
-
-ul {
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%;
-  line-height: 100px;
-}
-
-.main-body {
-  margin-top: 30px;
-}
-/*contact info*/
-
-
-li {
-  float: left;
-  display: floating;
-}
-
 
 .projects-list {
 
@@ -40,10 +13,10 @@ li {
 .panel-heading {
   background-color:
 }
-
+/*
 .row {
   min-width: 50%;
-}
+}*/
 
 dl {
   text-align: left;
